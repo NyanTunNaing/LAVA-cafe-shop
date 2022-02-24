@@ -140,23 +140,47 @@ h4 {
 
 /* menu-section */
 
-.menu{
+.menu {
   padding-bottom: 50px;
 }
 
-.menu__heading h5{
+.menu__heading p {
+  color: #fff;
+  transition: all 400ms;
+}
+
+.menu__heading h5 {
   letter-spacing: 1px;
   transition: all 400ms;
 }
 
-.menu__heading h5:hover{
+.menu__heading h5:hover {
   cursor: grab;
   color: #f4c613;
   letter-spacing: 2px;
 }
 
-.menu__rounded {
+.menu__heading img {
   border-radius: 20px;
+  transition: all 400ms;
+}
+
+.menu__heading {
+  border-radius: 20px;
+  background-color: #212121b3;
+}
+
+.menu__maindiv:hover .menu__heading img {
+  opacity: 0.4;
+}
+
+.menu__maindiv:hover .menu__heading h5 {
+  color: #f4c613;
+  letter-spacing: 2px;
+}
+
+.menu__maindiv:hover .menu__heading p {
+  letter-spacing: 1px;
 }
 
 /* shop-section */
