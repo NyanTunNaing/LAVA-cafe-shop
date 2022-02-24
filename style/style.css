@@ -145,7 +145,7 @@ h4 {
 }
 
 .menu__heading p {
-  color: #fff;
+  color: #000;
   transition: all 400ms;
 }
 
@@ -171,7 +171,7 @@ h4 {
 }
 
 .menu__maindiv:hover .menu__heading img {
-  opacity: 0.4;
+  opacity: 0.5;
 }
 
 .menu__maindiv:hover .menu__heading h5 {
@@ -180,6 +180,7 @@ h4 {
 }
 
 .menu__maindiv:hover .menu__heading p {
+  color: #fff;
   letter-spacing: 1px;
 }
 
